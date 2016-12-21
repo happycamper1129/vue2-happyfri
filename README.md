@@ -1,9 +1,12 @@
 # happyfri
 
-> A Vue2.js project
+一个简单的vue2入门项目，熟悉如何利用vue + vue-router + vuex 在初期搭建一个项目 
 
-## Build Setup
+![][https://github.com/bailicangdu/vue2-happyfri/blob/master/src/images/project-index.png]
+![][https://github.com/bailicangdu/vue2-happyfri/blob/master/src/images/project-item.png]
+![][https://github.com/bailicangdu/vue2-happyfri/blob/master/src/images/project-score.png]
 
+## 项目运行
 ``` bash
 # 安装依赖
 npm install
@@ -15,5 +18,4 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
