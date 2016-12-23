@@ -4,10 +4,10 @@ var path = require('path')
 module.exports = {
     build: {
         env: {NODE_ENV: '"production"'},
-        index: path.resolve(__dirname, '../elm/index.html'),
-        assetsRoot: path.resolve(__dirname, '../elm'),
+        index: path.resolve(__dirname, '../happyfri/index.html'),
+        assetsRoot: path.resolve(__dirname, '../happyfri'),
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/elm/',
+        assetsPublicPath: '/happyfri/',
         productionSourceMap: true,
         // Gzip off by default as many popular static hosts such as
         // Surge or Netlify already gzip all static assets for you.
@@ -22,11 +22,7 @@ module.exports = {
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         context: [ //代理路径
-            '/shopping',
-            '/v1',
-            '/v2',
-            '/v3',
-            '/v4',
+          
         ],
         proxypath: 'https://mainsite-restapi.ele.me',
         // CSS Sourcemaps off by default because relative paths are "buggy"

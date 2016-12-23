@@ -1,7 +1,7 @@
 {
-  "name": "elm",
+  "name": "happyfri",
   "version": "1.0.0",
-  "description": "vue2-elm",
+  "description": "A Vue.js project",
   "author": "maguohua <1264889788@qq.com>",
   "private": true,
   "scripts": {
